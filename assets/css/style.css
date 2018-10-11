@@ -1,0 +1,36 @@
+header{
+	border: 2px solid #000000 ;
+	margin-bottom: 30px;
+	background-color: #808080;
+	padding: 20px;
+}
+header ul{
+	list-style: none;
+	float: right;
+}
+header ul li{
+	display: inline-block;
+	margin-left: 20px;
+	color: pink;
+}
+.box-content{
+	display: flex;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+aside{
+	flex: 1;
+	border: 2px solid lightblue;
+	padding: 20px;
+}
+aside h1{
+	text-transform: uppercase;
+}
+article{
+	flex: 2;
+	border: 2px solid pink;
+	padding: 20px;
+	margin-left: 30px;
+}
